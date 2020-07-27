@@ -8,12 +8,12 @@ var PORT = process.env.PORT || 8080;
 
 //Middleware to allow json parsing
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(__dirname + '/public'));
 app.use(express.json());
 
 
-//Routes for home and notes pages
-require("./routes/indexRoutes")(app);
-require("./routes/noteRoutes")(app);
+//Routes
+require("./routes/routes")(app);
 
 
 
