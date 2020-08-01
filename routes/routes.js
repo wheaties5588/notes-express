@@ -1,5 +1,5 @@
 var path = require("path");
-var dbInfo = require("../db/db.json")
+var dbInfo = require("../db/db.json");
 
 module.exports = (app) => {
     
