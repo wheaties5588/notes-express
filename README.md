@@ -4,7 +4,7 @@
 ​![Live App](./public/live-app.png)
 #### Created On: 08/1/2020  
 
-Link to app: https://ancient-thicket-36320.herokuapp.com/notes
+Link to app: https://ancient-thicket-36320.herokuapp.com
 ​
 ## Creators
 Matt Wieciech  
